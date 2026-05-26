@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - João Pedro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVEGAÇÃO LATERAL -->
+    <nav class="sidebar">
+        <div class="logo">J</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">🏠</a></li>
+            <li><a href="#skills" class="nav-link">⭐</a></li>
+            <li><a href="#Workshops" class="nav-link">📋</a></li>
+            <li><a href="#portfolio" class="nav-link">💼</a></li>
+            <li><a href="#contact" class="nav-link">✉️</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container">
+        <!-- SEÇÃO HOME/HERO -->
+        <section id="home" class="section hero">
+            <div class="hero-content">
+                <div class="avatar">J</div>
+                <h1>Olá, eu sou João Pedro</h1>
+                <p class="subtitle">UI/UX Designer & Desenvolvedor</p>
+                <p class="description">
+                    Crio experiências web bonitas e responsivas usando tecnologias modernas.
+                    Apaixonado por código limpo e design centrado no usuário.
+                </p>
+                <div class="buttons">
+                    <button class="btn btn-primary">Ver Meu Trabalho</button>
+                    <button class="btn btn-secondary" >Baixar CV</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SKILLS -->
+        <section id="skills" class="section">
+            <h2>Minhas <span class="highlight">Habilidades</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                    <p>90%</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 40%"></div>
+                    </div>
+                    <p>40%</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Javascript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 20%"></div>
+                    </div>
+                    <p>20%</p>
+                </div>
+                <div class="skill-card">
+                    <h3>UI/UX Design</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 88%"></div>
+                    </div>
+                    <p>88%</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Seção Workshop-->
+
+            <section id="Workshops" class="section">
+                <h2> Meus <span class="highlight"> Workshops</span></h2>
+                <div class="GalleryDefaul">
+                    <div class="item">
+                        <img src="img/foto1.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="img/foto2.jpg" alt="">
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- -------------------- -->
+
+        <!-- SEÇÃO PORTFOLIO -->
+        <section id="portfolio" class="section">
+            <h2>Meu <span class="highlight">Portfólio</span></h2>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <div class="project-image">E-Commerce</div>
+                    <h3>Plataforma E-Commerce Moderna</h3>
+                    <p>React, TypeScript, Tailwind CSS</p>
+                    <div class="project-links">
+                        <a href="#" class="link">Ver →</a>
+                        <a href="#" class="link">Código →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">App</div>
+                    <h3>Disparo de Mensagens  de E-mail Automaticas</h3>
+                    <div class="project-links">
+                        <a href="source/video%20amostra.17" class="link">Ver →</a>
+                        <a href="https://github.com/Jaosantxs/Disparo-de-Mensagens.git" class="link">Código →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">Dashboard</div>
+                    <h3>Dashboard de Análise</h3>
+                    <p>React, D3.js, TypeScript</p>
+                    <div class="project-links">
+                        <a href="#" class="link">Ver →</a>
+                        <a href="#" class="link">Código →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO -->
+        <section id="contact" class="section">
+            <h2>Entre em <span class="highlight">Contato</span></h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <label for="nome">Nome</label>
+                    <input type="text" placeholder="Seu Nome" id="nome" required>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Seu Email" id="email" required>
+                    <label for="textarea">Descrição</label>
+                    <textarea placeholder="Sua Mensagem" rows="5" id="textarea" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> joaosantosf98@gmail.com</p>
+                    <p><strong>Telefone:</strong> +55 (92) 99951-7559</p>
+                    <p><strong>Localização:</strong> Manaus, AM</p>
+                    <div class="social-links">
+                        <a href="https:www.linkedin.com/in/joão-pedro-farias-dos-santos-36103b206" class="social">LinkedIn</a>
+                        <a href="https://github.com/Jaosantxs" class="social">GitHub</a>
+                        <a href="#" class="social">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
+
+
